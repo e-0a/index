@@ -1,8 +1,8 @@
-// 18/11/2022 > Esse arquivo está incompleto e precisa ser revisado até 02/12/22
+// 18/11/2022 > Esse arquivo está incompleto e precisa ser revisado até 03/12/22
 
-const TabelaFornecedor = require('./TabelaFornecedor')
-const CampoInvalido = require('../../erros/CampoInvalido')
-const DadosNaoFornecidos = require('../../erros/DadosNaoFornecidos')
+const TabelaFornecedor = require('./TabelaFornecedor');
+const CampoInvalido = require('../../erros/CampoInvalido');
+const DadosNaoFornecidos = require('../../erros/DadosNaoFornecidos');
 
 class Fornecedor {
     constructor ({ id, empresa, email, categoria, dataCriacao, dataAtualizacao, versao }) {

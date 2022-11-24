@@ -1,7 +1,7 @@
-// 22/11/22 > Esse arquivo será revisado até 02/12 
+// 22/11/22 > Esse arquivo será revisado até 04/12 
 
-const Sequelize = require('sequelize')
-const instancia = require('../../banco-de-dados')
+const Sequelize = require('sequelize');
+const instancia = require('../../banco-de-dados');
 
 const colunas = {
     empresa: {
